@@ -51,7 +51,7 @@ namespace Lab03
             Console.WriteLine($"Attack Power (int cast): {castPower}");
 
             // ----- Cast vs Convert: Crit Multiplier -----
-            Console.WriteLine("/n-----Cast vs Convert: Crit Multiplier-----");
+            Console.WriteLine("\n-----Cast vs Convert: Crit Multiplier-----");
             int castCrit = (int)critMultiplier;
             Console.WriteLine($"Crit Multiplier; (int cast): {castPower}");
             Console.WriteLine("Crit Multiplier (Convert rounded): " + Convert.ToInt32(critMultiplier));
