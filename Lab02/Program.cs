@@ -36,7 +36,7 @@ namespace Lab02
             Console.WriteLine();
             currentHp = currentHp - 60;
             Console.WriteLine();
-            Console.WriteLine("===== BOSS STATUS: INITIAL =====");
+            Console.WriteLine("===== BOSS STATUS: AFTER DAMAGE =====");
             Console.WriteLine($"HP: {currentHp} / {maxHp}");
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent: {hpPercent}%");
