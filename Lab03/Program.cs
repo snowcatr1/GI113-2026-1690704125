@@ -6,6 +6,8 @@
  * Course     : GI113 Computer Programming (GI)
  */
 
+using System.Collections;
+
 namespace Lab03
 {
     internal class Program
@@ -40,9 +42,13 @@ namespace Lab03
 
             // Explicit Conversion Cast attackPower (float) -->> int
             Console.WriteLine("\n----- Exact HP Percent (no integer truncation) -----");
-            
+            double hpPercentExact = currentHpDouble * 100 / maxHp;
+            Console.WriteLine($"HP Percent(exact): {hpPercentExact}%");
 
             // Cast vs. Convert critMultiplier (double) -->> int
+            Console.WriteLine("\n----- Explicit Cast: Attack Power -> Display Int -----");
+            
+            Console.WriteLine($"Attack Power (int cast): {attackDisplay}");
 
         }
     }
