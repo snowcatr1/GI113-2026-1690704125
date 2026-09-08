@@ -27,14 +27,6 @@ namespace Lab04
             int difficulty = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"\n\"Difficulty {difficulty} selected. Good luck out there");
 
-            Console.WriteLine("+------------------------------+");
-            Console.WriteLine("|          ITEM SHOP           |");
-            Console.WriteLine("+------------------------------+");
-            Console.Write("How many potions?");
-            bool isValid = int.TryParse(Console.ReadLine(), out int quantity);
-
-            Console.WriteLine($"Valid input: {isValid}");
-            Console.WriteLine($"Quantity: {quantity}");
 
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|      CHARACTER CREATION       |");
@@ -46,6 +38,15 @@ namespace Lab04
             Console.Write("Starting luck (0.0-10.0: ");
             bool luckOk = double.TryParse(Console.ReadLine(), out double luck);
             Console.WriteLine($"\n{charName} the Class-{classNum} adventurer enters the dungeon. Luck: {luck}");
+
+            Console.WriteLine("+------------------------------+");
+            Console.WriteLine("|          ITEM SHOP           |");
+            Console.WriteLine("+------------------------------+");
+            Console.Write("How many potions?");
+            bool isValid = int.TryParse(Console.ReadLine(), out int quantity);
+
+            Console.WriteLine($"Valid input: {isValid}");
+            Console.WriteLine($"Quantity: {quantity}");
 
             Console.WriteLine("+------------------------------+");
             Console.WriteLine("|          SET VOLUME           |");
