@@ -23,7 +23,7 @@ namespace Assignment01
             int survivormaxHp = 80;
             int regularSpeed = 12;
             float sprintingSpeed = 26.5f;
-            double maxStamina = 100.5;
+            double maxStamina = 100.6;
             bool isPlayable = true;
 
             Console.WriteLine($"=====+ {GameTitle} +=====");
