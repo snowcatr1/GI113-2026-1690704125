@@ -11,7 +11,7 @@ namespace Lab07
     {
         static void Main(string[] args)
         {
-            //Part A
+            //Part A + Part B
             const int MonsterHp = 10;
 
             Console.Write("Monster Defense: ");
@@ -22,7 +22,8 @@ namespace Lab07
             Console.WriteLine("2) Fire Magic");
             Console.WriteLine("3) Defend");
             Console.WriteLine("4) Run");
-            Console.Write("Choose (1-4): ");
+            Console.WriteLine("5) Vine Lash");
+            Console.Write("Choose (1-5): ");
             int.TryParse(Console.ReadLine(), out int command);
 
             switch (command)
@@ -39,6 +40,9 @@ namespace Lab07
                 case 4:
                     Console.WriteLine("Hero looks for a way out...");
                     break;
+                case 5:
+                    Console.WriteLine("Hero unleashes a Vine Lash spell!");
+                    break;
                 default:
                     Console.WriteLine("Hero hesitates. Invalid command!");
                     break;
@@ -47,6 +51,7 @@ namespace Lab07
             {
                 1 => 12,
                 2 => 18,
+                5 => 13,
                 _ => 0
             };
             int damage = Math.Max(0, power - monsterDefense);
@@ -79,7 +84,6 @@ namespace Lab07
                     break;
             }
 
-            //Part B
         }
     }
 }
