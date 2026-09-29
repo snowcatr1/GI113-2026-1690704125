@@ -40,13 +40,13 @@ namespace Assignment02
             else if (choice == 'S' || choice == 's')
             {
                 double result = amount * SmeltRate;
-                Console.WriteLine($"{amount:F2} {whiteOre} Ore = {result:F2} {whiteOre} Ingot");
+                Console.WriteLine($"{amount:F2} {WhiteOre} Ore = {result:F2} {WhiteOre} Ingot");
             }
             
             else
             {
                     double result = amount / SalvageRate;
-                Console.WriteLine($"{amount:F2} {whiteOre} Ingot = {result:F2} {whiteOre} Ore");
+                Console.WriteLine($"{amount:F2} {WhiteOre} Ingot = {result:F2} {WhiteOre} Ore");
             }
 
         }
