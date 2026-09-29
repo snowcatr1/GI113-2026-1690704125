@@ -11,7 +11,7 @@ namespace Assignment02
     {
         static void Main(string[] args)
         {
-            const string whiteOre = "White";
+            const string WhiteOre = "White";
             const double SmeltRate = 0.50;
             const double SalvageRate = 0.6;
             const double MaxBatch = 1000;
