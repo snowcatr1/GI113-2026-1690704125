@@ -3,7 +3,7 @@ using UnityEngine;
 public class ArrayLab : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] int[] numbers = { 3, 40, 8, 15, 22, -5, -2, -9 };
+    [SerializeField] int[] numbers = { 12, 7, 30, 4, 19, 25, 9, 18 };
     int sum;
     float average;
     int maximum;
@@ -14,7 +14,6 @@ public class ArrayLab : MonoBehaviour
         {
             Debug.Log("Number " + (i + 1) + ": " + numbers[i]);
         }
-
         sum = 0;
         for (int i = 0; i < numbers.Length; i++)
         {
@@ -23,7 +22,6 @@ public class ArrayLab : MonoBehaviour
         average = (float)sum / numbers.Length;
         Debug.Log("Sum: " + sum);
         Debug.Log("Average: " + average);
-
         maximum = numbers[0];
         minimum = numbers[0];
         for (int i = 1; i < numbers.Length; i++)
@@ -39,14 +37,13 @@ public class ArrayLab : MonoBehaviour
         }
         Debug.Log("Maximum: " + maximum);
         Debug.Log("Minimum: " + minimum);
-
         System.Array.Sort(numbers);
         foreach (int n in numbers)
         {
             Debug.Log("Sorted: " + n);
         }
     }
-
+    
     // Update is called once per frame
     void Update()
     {
