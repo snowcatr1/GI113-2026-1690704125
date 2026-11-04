@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 112667770}
   - component: {fileID: 112667769}
   m_Layer: 0
-  m_Name: ArrayLab
+  m_Name: Lab08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,8 +147,8 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 155b71f1e9269c54388cdee3634ab881, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ArrayLab
-  numbers: 0c000000070000001e0000000400000013000000130000001300000013000000
+  m_EditorClassIdentifier: Assembly-CSharp::Lab08
+  numbers: 020000003500000059000000eafffffffdffffff
 --- !u!4 &112667770
 Transform:
   m_ObjectHideFlags: 0

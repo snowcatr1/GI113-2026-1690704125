@@ -1,13 +1,21 @@
+/*
+ * Student ID : 1690704125
+ * Name       : Lab08
+ * Section    : 129D
+ * No.        : 11
+ * Course     : GI113 Computer Programming (GI)
+ */
 using UnityEngine;
 
-public class ArrayLab : MonoBehaviour
+public class Lab08 : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] int[] numbers = { 12, 7, 30, 4, 19, 25, 9, 18 };
+    [SerializeField] int[] numbers = { 2, 53, 89, -22, -3 };
     int sum;
     float average;
     int maximum;
     int minimum;
+
     void Start()
     {
         for (int i = 0; i < numbers.Length; i++)
